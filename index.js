@@ -9,4 +9,4 @@
  * 
  * @type {*}
  */
-module.exports.registrationPlugin = require('./lib/NodeAuthRegister');
+module.exports.NodeAuthPlugin = require('./lib/NodeAuthPlugin');
