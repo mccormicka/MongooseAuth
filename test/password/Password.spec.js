@@ -65,6 +65,13 @@ describe('NodeAuthPassword Tests', function () {
     });
 
     describe('SHOULD NOT', function () {
+
+        it('Expose password when converting to JSON', function () {
+            var json = model.toJSON();
+            expect(json.password).toBeUndefined();
+        });
+
+
         it('Allow a non registered account to create a reset token', function (done) {
             User.createPasswordResetToken({email: 'fake@test.com'}, function (err) {
                 expect(err).not.toBeNull();

@@ -34,7 +34,8 @@
     "mongoose-validator": "0.2.1",
     "bcrypt": "~0.7.5",
     "nodelogger": "https://github.com/mccormicka/nodelogger/archive/master.tar.gz",
-    "mockgoose": "0.0.13"
+    "mockgoose": "0.0.13",
+    "mongoose-json-select": "~0.2.1"
   },
   "devDependencies": {
     "grunt": "0.4.1",
