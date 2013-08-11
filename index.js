@@ -3,10 +3,8 @@
 /**
  * Add the registration plugin to your user model before instantiating it.
  *
- * schema.plugin(NodeAuth.registrationPlugin);
+ * schema.plugin(MongooseAuth.plugin);
  *
- * You will then be able to call. YourModel.register(email, password, next);
- * 
  * @type {*}
  */
-module.exports.NodeAuthPlugin = require('./lib/NodeAuthPlugin');
+module.exports.plugin = require('./lib/MongooseAuthPlugin');

@@ -8,7 +8,7 @@ describe('NodeAuthLocal Tests', function () {
     var db = mongoose.createConnection('mongodb://localhost:3001/Whatever');
     var Auth = require('../index');
     var schema = new mongoose.Schema();
-    schema.plugin(Auth.NodeAuthPlugin, {local:true, passport:require('passport')});
+    schema.plugin(Auth.plugin, {local:true, passport:require('passport')});
     var User = db.model('localmockuser', schema);
 
     var model;

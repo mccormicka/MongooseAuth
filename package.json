@@ -1,6 +1,6 @@
 {
-  "name": "nodeauth",
-  "description": "NodeAuth",
+  "name": "mongooseauth",
+  "description": "mongooseauth",
   "version": "0.0.1",
   "author": {
     "name": "Anthony McCormick",
@@ -17,13 +17,13 @@
     "node": ">=0.6.19"
   },
   "bugs": {
-    "url": "https://github.com/mccormicka/nodeauth/issues"
+    "url": "https://github.com/mccormicka/mongooseauth/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mccormicka/nodeauth"
+    "url": "https://github.com/mccormicka/mongooseauth"
   },
-  "homepage": "https://github.com/mccormicka/nodeauth",
+  "homepage": "https://github.com/mccormicka/mongooseauth",
   "readmeFilename": "README.md",
   "dependencies": {
     "async": "0.2.7",

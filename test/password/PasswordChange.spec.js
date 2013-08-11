@@ -8,7 +8,7 @@ describe('NodeAuthPassword Tests', function () {
     var db = mongoose.createConnection('mongodb://localhost:3001/Whatever');
     var Auth = require('../../index');
     var schema = new mongoose.Schema();
-    schema.plugin(Auth.NodeAuthPlugin);
+    schema.plugin(Auth.plugin);
     var User = db.model('passwordchangemockuser', schema);
 
     var model;
