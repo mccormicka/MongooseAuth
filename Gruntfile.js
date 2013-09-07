@@ -4,6 +4,12 @@ module.exports = function (grunt) {
     grunt.registerTask('default',
         ['jshint', 'jasmine_node', 'watch']);
 
+    //Just run tests
+    grunt.registerTask('test', 'jasmine_node');
+
+    //Alias for default
+    grunt.registerTask('test:watch', 'default');
+
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
