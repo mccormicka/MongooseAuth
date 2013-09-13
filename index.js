@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Add the registration plugin to your user model before instantiating it.
+ * Add the local auth plugin to your model before instantiating it.
  *
  * schema.plugin(MongooseAuth.plugin);
  *
