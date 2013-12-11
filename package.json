@@ -33,16 +33,16 @@
     "passport-local": "0.1.6",
     "mongoose-validator": "0.2.1",
     "bcrypt": "~0.7.5",
-    "nodelogger": "https://github.com/mccormicka/nodelogger/archive/master.tar.gz",
-    "mockgoose": "0.0.13",
-    "mongoose-json-select": "~0.2.1"
+    "mongoose-json-select": "~0.2.1",
+    "bunyan": "~0.22.1"
   },
   "devDependencies": {
     "grunt": "0.4.1",
-    "jasmine-node": "~1.7.0",
+    "jasmine-node": "https://github.com/mccormicka/jasmine-node/archive/exclusive-tests.tar.gz",
     "grunt-contrib-watch": "0.3.1",
     "grunt-contrib-jshint": "0.4.3",
     "grunt-jasmine-node": "~0.1.0",
-    "mongoose": "~3.6.16"
+    "mongoose": "~3.6.16",
+    "mockgoose": "~1.1.0"
   }
 }
